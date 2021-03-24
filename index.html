@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<script>
-$(document).on("pagecreate","#pageone",function(){
-  $("p").on("swipeleft",function(){
-   window.location.href = "two.html";
-  });                       
-});
-$(document).on("pagecreate","#pageone",function(){
-  $("p").on("swiperight",function(){
-   window.location.href = "https://www.google.com";
-  });                       
-});
-</script>
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -57,22 +41,20 @@ button:hover, a:hover {
 </style>
 </head>
 <body>
-<div data-role="page" id="pageone">
-    <h2 style="text-align:center">Athlete Profile</h2>
-    <div data-role="main" class="ui-content">
-        <div class="card">
-            <img src="1p.jpg" alt="First" style="width:100%">
-            <h1>Alex P.</h1>
-            <p><20 Km</p>
-            <p class="title">Swimming is my favourite, but I always have been a runner. I am looking for a training buddy, early mornings, brownie points if you enjoy a bit of parkour.</p>
-        </div>
-          <div style="margin: 24px 0;">
-             <a href="two.html"><img src="x.jpg" alt="x" style="width:20%"></a> 
-             <a href="two.html"><img src="1.jpg" alt="1" style="width:20%"></i></a>  
-             <a href="two.html"><img src="2.jpg" alt="2" style="width:20%"></i></a>  
-             <a href="two.html"><img src="3.jpg" alt="3" style="width:20%"></i></a> 
-        </div>
-    </div>
-</div> 
+<h2 style="text-align:center">Athlete Profile</h2>
+
+<div class="card">
+  <img src="1p.jpg" alt="First" style="width:100%">
+  <h1>John Q.</h1>
+  <p><20 Km</p>
+  <p class="title">Working towards ironman next year. I need a training buddy to go that little bit further with my sessions. I am sociable, and prefer outdoor training to the gym.<div style="margin: 24px 0;">
+    <a href="two.html"><img src="x.jpg" alt="x" style="width:20%"></a> 
+    <a href="two.html"><img src="1.jpg" alt="1" style="width:20%"></i></a>  
+    <a href="two.html"><img src="2.jpg" alt="2" style="width:20%"></i></a>  
+    <a href="two.html"><img src="3.jpg" alt="3" style="width:20%"></i></a> 
+  </div>
+</div>
+
 </body>
 </html>
+
